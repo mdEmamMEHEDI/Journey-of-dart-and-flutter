@@ -1,0 +1,23 @@
+//Switch Case: যখন অনেকগুলো অপশন থাকে তখন এটি ব্যবহার করা হয়।
+var mark = 80;
+switch (mark) {
+  case 80:
+    print("You get A+");
+    break;
+  case 75:
+    print("you get A");
+    break;
+  case 70:
+    print("you get A-");
+    break;
+  default:
+    print("result not found");
+}
+
+//loop
+var alphabet = ['a', 'b', 'v', 'd'];
+  
+  // for-in loop (এটি বেশ ইনটারেস্টিং)
+  for (var OneAlphabet in alphabet) {
+    print(OneAlphabet);
+  }
