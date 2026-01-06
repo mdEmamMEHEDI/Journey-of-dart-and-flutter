@@ -1,0 +1,14 @@
+var person ={
+  "name":"liya", "age": 18, "gender" : "female"
+};
+print(person['Person']);
+
+// নতুন ডেটা যুক্ত করা
+person["country"] = "Bangladesh";
+person["address"] = "Bhurungamari";
+print(person);
+
+//অবজেক্ট বা কনস্ট্রাক্টর পদ্ধতিতে ম্যাপ:
+var animal = new Map(); // 'Map' এর M বড় হাতের হতে হবে
+animal['goru'] = 'gomTa';
+print(animal);
