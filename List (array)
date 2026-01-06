@@ -1,0 +1,8 @@
+
+var details = ['mehedi', 'student', 024, 'DIU'];
+  
+  var name1 = details[0];
+  var occupation = details[1];
+  var roll = details[2];
+
+  print("My name is $name1. I am a $occupation. My roll is $roll");
