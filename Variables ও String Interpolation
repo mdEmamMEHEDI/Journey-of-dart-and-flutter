@@ -1,0 +1,13 @@
+//ডার্টে ভেরিয়েবল প্রিন্ট করার সময় $ চিহ্ন ব্যবহার করা হয়। যোগ-বিয়োগের মতো কাজ করতে ${} ব্যবহার করতে হয়।
+void main() {
+  print("2nd come back");
+  
+  int x = 5;
+  int y = 2;
+  print("sum of $x and $y is : ${x + y}");
+
+  // String ডিক্লেয়ার করা
+  String name = "Mehedi";
+  print("my name is : $name");
+  print(name[0]); // স্ট্রিংয়ের প্রথম অক্ষর প্রিন্ট করা
+}
